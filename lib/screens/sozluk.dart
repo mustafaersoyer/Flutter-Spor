@@ -70,6 +70,7 @@ class _SozlukState extends State<Sozluk> {
       desc: '' + data[0]['dc_Ingilizce'],
       buttons: [
         DialogButton(
+          color: Colors.teal,
           child: Text(
             "Kapat",
             style: TextStyle(color: Colors.white, fontSize: 20),

@@ -46,7 +46,6 @@ class _BeyazShowState extends State<BeyazShow> {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text('Beyaz Show Videoları'),
-        backgroundColor: Colors.teal,
       ),
       body: Container(
         child: FutureBuilder(
@@ -69,8 +68,7 @@ class _BeyazShowState extends State<BeyazShow> {
                             FlutterYoutube.playYoutubeVideoByUrl(
                                 apiKey:
                                     "eb7608ce2bc10f7ed7d8c257f5dda56db3136094",
-                                videoUrl:
-                                    "https://www.youtube.com/watch?v=hta2MAu5lek",
+                                videoUrl: snapshot.data[index].link,
                                 autoPlay: true, //default falase
                                 fullScreen: true //default false
                                 );

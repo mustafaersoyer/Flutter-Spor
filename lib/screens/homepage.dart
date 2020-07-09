@@ -10,7 +10,6 @@ class HomePage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text('FlutterSpor'),
-          backgroundColor: Colors.teal,
         ),
         body: SafeArea(
           child: Column(

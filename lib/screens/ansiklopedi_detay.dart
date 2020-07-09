@@ -9,7 +9,6 @@ class AnsiklopediDetay extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(category),
-        backgroundColor: Colors.teal,
       ),
       body: SingleChildScrollView(
         child: Column(children: getContent()),

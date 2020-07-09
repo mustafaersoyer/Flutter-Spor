@@ -45,7 +45,6 @@ class _AnsiklopediState extends State<Ansiklopedi> {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text('Lüzumsuz Bilgiler Ansiklopedisi'),
-        backgroundColor: Colors.teal,
       ),
       body: Container(
         child: FutureBuilder(
