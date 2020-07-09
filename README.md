@@ -1,6 +1,8 @@
 # flutter_spor
 
 Flutter Spor
+![](animation.gif)
+
 
 ## Getting Started
 
